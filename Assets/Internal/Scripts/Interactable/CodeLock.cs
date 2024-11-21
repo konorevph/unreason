@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CodeLock : MonoBehaviour
+public class CodeLock : MonoBehaviour, ILock
 {
     public GameObject OpenedIndicator, ClosedIndicator;
     private CodeLockRoll[] rolls;
@@ -13,6 +13,7 @@ public class CodeLock : MonoBehaviour
     {
         rolls = this.GetComponentsInChildren<CodeLockRoll>();
         GenerateCode(rolls.Length);
+        isOpened = false;
     }
 
     void Start()
