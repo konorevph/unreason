@@ -76,3 +76,5 @@ crashlytics-build.properties
 .vscode
 
 *.log
+
+/[Aa]ssets/Internal/Scene/blocking_VR2.fbx

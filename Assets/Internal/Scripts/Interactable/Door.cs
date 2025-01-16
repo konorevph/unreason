@@ -4,25 +4,24 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public GameObject lockObject;
+    public bool isOpened = true;
+    public GameObject locker;
     private ILock doorLock;
-    private bool isOpened;
     private HingeJoint[] doors;
     // Start is called before the first frame update
 
     void Awake()
     {
         doors = this.GetComponentsInChildren<HingeJoint>();
-        if (lockObject != null)
+        if (locker != null)
         {
-            doorLock = lockObject.GetComponentInChildren<ILock>();
+            doorLock = locker.GetComponentInChildren<ILock>();
         }
     }
 
     void Start()
     {
-        if (doorLock == null) isOpened = true;
-        else 
+        if (doorLock != null)
         {
             isOpened = doorLock.IsOpened();
         }

@@ -13,3 +13,4 @@ EditorBuildSettings:
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 13675d3222987fe4b8cafee7c124644b, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 8624ac71fc13e244f83034549df3804b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 291e23647d68cd641a2a40d6e1b5408a, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4a3d77561bad24e45b9d73977535fa55, type: 2}
