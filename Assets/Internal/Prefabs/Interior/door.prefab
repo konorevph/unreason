@@ -256,7 +256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd7cf4fd1567de4abadd2371f9a88bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockObject: {fileID: 0}
+  isOpened: 1
+  locker: {fileID: 0}
+  closeSpeed: 50
 --- !u!1 &2924662437066558953
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +321,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 26a3ef2f51615054dbc7b46d43cfebc9, type: 2}
+  - {fileID: 2100000, guid: 86ae6a7bd35e8254fa43ed4af16cc05a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,8 +408,8 @@ Rigidbody:
   m_GameObject: {fileID: 3749503065992500238}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -440,8 +442,8 @@ HingeJoint:
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
-    spring: 0
-    damper: 0
+    spring: 20
+    damper: 20
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -619,7 +621,7 @@ GameObject:
   - component: {fileID: 2567458090699972756}
   m_Layer: 0
   m_Name: door_handler
-  m_TagString: Untagged
+  m_TagString: door_handler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

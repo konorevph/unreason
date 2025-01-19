@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/New Scene.unity
     guid: ccf9a55886d0a84438de7e5c52fec23d
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: bde028bb527aed64eb20252b154b87da
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3428b2d870fadb74d8bd7f486f830d8e, type: 2}
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 13675d3222987fe4b8cafee7c124644b, type: 2}
