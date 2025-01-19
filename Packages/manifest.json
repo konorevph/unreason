@@ -7,6 +7,8 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.0",
     "com.unity.xr.interaction.toolkit": "2.5.4",
+    "com.unity.pico.livepreview": "file:../Unity Live Preview Plugin-1.0.4-20241205",
+    "com.unity.xr.picoxr": "file:../PICO Unity Integration SDK-3.0.0-240902",
     "com.unity.xr.management": "4.5.0",
     "com.unity.xr.oculus": "4.0.0",
     "com.unity.xr.openxr": "1.8.2",

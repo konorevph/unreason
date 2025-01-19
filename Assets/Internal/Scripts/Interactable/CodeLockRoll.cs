@@ -27,6 +27,7 @@ public class CodeLockRoll : MonoBehaviour
     private void SetValue(int value)
     {
         this.value = value;
-        this.transform.localEulerAngles = new Vector3(0, 0, value * 36);
+        Vector3 t = this.transform.localEulerAngles;
+        this.transform.localEulerAngles = new Vector3(t.x, t.y, value * 36);
     }
 }
