@@ -1,0 +1,22 @@
+{
+    "name": "Pico.Spatializer",
+    "rootNamespace": "",
+    "references": [
+        "Unity.XR.PICO",
+        "Unity.XR.PICO.LivePreview"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "macOSStandalone",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

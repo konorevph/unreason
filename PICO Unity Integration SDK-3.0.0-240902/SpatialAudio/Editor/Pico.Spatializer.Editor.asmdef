@@ -1,0 +1,16 @@
+{
+    "name": "Pico.Spatializer.Editor",
+    "rootNamespace": "",
+    "references": ["GUID:b3d620f74d91148829d3deb288af824d","GUID:65a004a26c89ac5468e8d4b4b057f1c8","GUID:f70b6e413e9cf3744b522089b55c7e84"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
