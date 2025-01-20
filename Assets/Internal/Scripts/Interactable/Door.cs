@@ -8,6 +8,9 @@ public class Door : MonoBehaviour
     public bool isOpened = true;
     public GameObject locker;
     public float closeSpeed = 50f;
+    public AudioSource ClosingAudioSource;
+    public AudioSource OpeningAudioSource;
+    
     private ILock doorLock;
     private HingeJoint[] doors;
     private BoxCollider[] handlers;
@@ -112,11 +115,13 @@ public class Door : MonoBehaviour
 
     public void Close()
     {
+        ClosingAudioSource.Play();
         isOpened = false;
     }
     
     public void PartiallyOpen(float angle = 90f)
     {
+        OpeningAudioSource.Play();
         partialOpenAngle = angle;
         isOpened = true;
     }

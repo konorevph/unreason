@@ -5,10 +5,16 @@ using UnityEngine.Events;
 
 public class Checkpoint : MonoBehaviour
 {
+	public bool Active = false;
 	[SerializeField]
 	public UnityEvent OnCheckpointReached;
 
 	public Checkpoint[] NextCheckpoints;
+
+	private void Start()
+	{
+		gameObject.SetActive(Active);
+	}
 
 	protected void Trigger()
 	{
@@ -18,13 +24,5 @@ public class Checkpoint : MonoBehaviour
 			checkpoint.gameObject.SetActive(true);
 		}
 		this.enabled = false;
-	}
-
-	private void OnTriggerEnter(Collider other)
-	{
-		if (other.CompareTag("Player"))
-		{
-			Trigger();
-		}
 	}
 }
