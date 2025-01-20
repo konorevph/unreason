@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5319239193399588376}
   - component: {fileID: 1390151062689211568}
   - component: {fileID: 4106149474584167119}
+  - component: {fileID: 2468746567942351089}
   m_Layer: 0
   m_Name: flashlight
   m_TagString: Untagged
@@ -217,6 +218,19 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &2468746567942351089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718284325017722159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2572f4e8f1aa8d74090a49f3d818e975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 0
 --- !u!1 &3296065269751563041
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +277,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 5
   m_Range: 10
-  m_SpotAngle: 40.3
+  m_SpotAngle: 35
   m_InnerSpotAngle: 3
   m_CookieSize: 10
   m_Shadows:
