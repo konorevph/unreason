@@ -7,7 +7,8 @@ public class Door : MonoBehaviour
 {
     public bool isOpened = true;
     public GameObject locker;
-    public float closeSpeed = 50f;
+    public float closeSpeed = 100f;
+    public float openSpeed = 30f;
     public AudioSource ClosingAudioSource;
     public AudioSource OpeningAudioSource;
     
@@ -109,7 +110,7 @@ public class Door : MonoBehaviour
         }
         JointMotor motor = door.motor;
         motor.force = 100;
-        motor.targetVelocity = closeSpeed * 0.5f;
+        motor.targetVelocity = openSpeed;
         door.motor = motor;
     }
 
