@@ -3,7 +3,182 @@ guid: 462ed5f13d97a834a999e98eb02e7366
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3433
+    second: {fileID: 2800000, guid: 84ebc7b7cd2b07a42ba52dedff4d128d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3434
+    second: {fileID: 2800000, guid: d603545123df4f8488e54caa6549c317, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3435
+    second: {fileID: 2800000, guid: b60a248ae848b464198a290be9a4f70f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 706336_w
+    second: {fileID: 2800000, guid: 18158f2445a00ed478decf57b8e61f92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MosaicTiles_normal
+    second: {fileID: 2800000, guid: ce789819df8e1fc45b0ef896ffca3d5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MosaicTiles_roughness
+    second: {fileID: 2800000, guid: 9ee86b61b2691434999d79a46201474a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Diffuse
+    second: {fileID: 2800000, guid: 261941fed52562c46baa8e1b596af26e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Normal
+    second: {fileID: 2800000, guid: 3050b2f402c3e6346a06b5c9ef12fd23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Roughness
+    second: {fileID: 2800000, guid: 4a28adce811726a4b9df9767719da6cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Piso desgastado_normal
+    second: {fileID: 2800000, guid: 479d95da4f1d9704babf2df79a6a9dd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Scene_-_Root_baseColor
+    second: {fileID: 2800000, guid: fd95bc901193ebc4292076ad10714a0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Scene_-_Root_normal
+    second: {fileID: 2800000, guid: 65acf4889f11e9743be617b664ec9dec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Shelf_01_diff_4k
+    second: {fileID: 2800000, guid: 520c2ce714dbd744ea1fd90582f4d96a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Shelf_01_metallic_4k
+    second: {fileID: 2800000, guid: 9082d70bd7a59fc4b97a4e481691777a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Shelf_01_nor_gl_4k
+    second: {fileID: 2800000, guid: 6cb619cdee5369343a106bfc6036c57f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Shelf_01_roughness_4k
+    second: {fileID: 2800000, guid: f81a896b884c1b44f9453ab011301adf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waiting_Bench_m_Base_Color
+    second: {fileID: 2800000, guid: bf0f56f1f1cfb604aa26266f0a5309d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waiting_Bench_m_Normal_GL_
+    second: {fileID: 2800000, guid: 5e6370c979437774cb34ee63aa771598, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waiting_Bench_m_Opacity
+    second: {fileID: 2800000, guid: bee8c54931d770f458f91573ebc753ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waiting_Bench_m_Roughness
+    second: {fileID: 2800000, guid: d762c256c8ff94144ad07891658af6f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door1_1_BaseColor
+    second: {fileID: 2800000, guid: 4bf6087c5014c634a89f33fb01e8055c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door1_1_Metallic
+    second: {fileID: 2800000, guid: 8e2282fc91a58014bb04ac742c2250d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door1_1_Normal
+    second: {fileID: 2800000, guid: 38c431ed8505d5946b3632cd830fafd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door1_1_Roughness
+    second: {fileID: 2800000, guid: 4ff95e418ab729f43889de8bde4c987b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: image
+    second: {fileID: 2800000, guid: 870782aca25cf8f4b86bbcc6cd2bbe1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old_dirty_pool_tiles_diffuse
+    second: {fileID: 2800000, guid: 511b7d751d0eb7b418b5f2ff4324bd24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old_dirty_pool_tiles_specular
+    second: {fileID: 2800000, guid: ef54385518b58594d817069d29cf6ce5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wall_normal
+    second: {fileID: 2800000, guid: 007a15fc3817f804eae381bde4c11fe7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: z0073-24-Unit-First-Aid-Kit-OSHA-Metal-Box
+    second: {fileID: 2800000, guid: 678b1f1ff76c6cd4b97421ea5d42da29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_Alpha"
+    second: {fileID: 2800000, guid: 9e06143157c50d5448d2647a9e313b8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_BaseColor"
+    second: {fileID: 2800000, guid: 51ec1f1af45e41c4496d2e59a0c5fff0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_Emission"
+    second: {fileID: 2800000, guid: 0945a4474de4f0a41b48388870bdc4c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_Metallic"
+    second: {fileID: 2800000, guid: 0b63322176cec8a4899e40dcaf3ef11c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_Normal"
+    second: {fileID: 2800000, guid: 1b87258f54a1d594591b8cd89ef9d8da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0431\u043E\u043B\u044C 2_Roughness"
+    second: {fileID: 2800000, guid: 5ea80be9fb649ce4e9243a54ccb19537, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

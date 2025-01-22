@@ -28,7 +28,7 @@ public class Starting : MonoBehaviour
         }
         flashlight = flashlightObject.GetComponent<LightSource>();
         
-        doorToClose.PartiallyOpen(50f);
+        doorToClose.PartiallyOpen(20f);
     }
 
     private void OnTriggerEnter(Collider other)

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.11320752, g: 0.104022756, b: 0.104022756, a: 1}
+  m_AmbientSkyColor: {r: 0.01886791, g: 0.017871115, b: 0.017871115, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &107149329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4399832290903010650, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+  m_PrefabInstance: {fileID: 1015245460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &115055211 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8470740539671120018, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
@@ -232,6 +237,11 @@ MonoBehaviour:
 --- !u!1 &574399179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7207014015020767495, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+  m_PrefabInstance: {fileID: 1015245460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615093964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1571309478876611594, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
   m_PrefabInstance: {fileID: 1015245460}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &857352853
@@ -393,6 +403,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1571309478876611594, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095325284741592423, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3488248479184218114, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -431,6 +449,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3488248479184218114, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399832290903010650, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388563080762197992, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418043510389673497, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8695793524630188427, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
@@ -503,6 +533,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b027afc910560448a6725e19f6d4872, type: 3}
+--- !u!1 &1071050980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5418043510389673497, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+  m_PrefabInstance: {fileID: 1015245460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077109163 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4765841258769869981, guid: 2b027afc910560448a6725e19f6d4872, type: 3}
@@ -1625,6 +1660,7 @@ GameObject:
   - component: {fileID: 1766983795}
   - component: {fileID: 1766983796}
   - component: {fileID: 1766983797}
+  - component: {fileID: 1766983798}
   m_Layer: 0
   m_Name: PickFlashlight
   m_TagString: Untagged
@@ -1675,6 +1711,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1108406992}
+--- !u!114 &1766983798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766983794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f3bfd7b24744fb91f7eb8a6ba6465d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModelsToActivate:
+  - {fileID: 1925621901}
+  - {fileID: 615093964}
+  - {fileID: 107149329}
+  - {fileID: 1071050980}
+  ModlsToDisactivate:
+  - {fileID: 2037938773}
 --- !u!1001 &1851953815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1775,6 +1830,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4138500316969329532, guid: 7b5048a36aabdee46bc80c98820e0cbc, type: 3}
   m_PrefabInstance: {fileID: 1297007967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1925621901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5388563080762197992, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+  m_PrefabInstance: {fileID: 1015245460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2025500130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1836,6 +1896,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b027afc910560448a6725e19f6d4872, type: 3}
+--- !u!1 &2037938773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8515996645588531786, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+  m_PrefabInstance: {fileID: 1015245460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2061894766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7312127053723660867, guid: 7b5048a36aabdee46bc80c98820e0cbc, type: 3}
@@ -1877,6 +1942,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1766983797}
         m_TargetAssemblyTypeName: PickFlashlight, Assembly-CSharp
         m_MethodName: OpenDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1766983798}
+        m_TargetAssemblyTypeName: ModelActivator, Assembly-CSharp
+        m_MethodName: Execute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

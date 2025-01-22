@@ -3,7 +3,112 @@ guid: 0059f8e3d1bc0d24489f9f36ee5b3666
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ImagePaste-240317-005258
+    second: {fileID: 2800000, guid: 2063c89f9363df24ea4bd7db2f1ff81b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ImagePaste-240317-005622
+    second: {fileID: 2800000, guid: 7514a89d509bcb443959c08f3d2906e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sharp-01
+    second: {fileID: 2800000, guid: 84847ef669964fe4da3f628403420072, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fern1
+    second: {fileID: 2800000, guid: 807259b92981b8c4f92c4311dcaaaa5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: potato2
+    second: {fileID: 2800000, guid: 6bdc3ca65d0841e468eff71902eaa8b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_fridgeand_table_BaseColor.1001
+    second: {fileID: 2800000, guid: 7f66a9628fdeff1418f3ed17561765ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_fridgeand_table_Metallic.1001
+    second: {fileID: 2800000, guid: 3fd568a7a3a779c40942cedcc4d86d95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_fridgeand_table_Normal.1001
+    second: {fileID: 2800000, guid: fcd764a52800c6c43b2a8074f0e8f47b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_fridgeand_table_Roughness.1001
+    second: {fileID: 2800000, guid: 3bfe4c7c0d4c9404980cc45adf8f201b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_room_BaseColor.1001
+    second: {fileID: 2800000, guid: 3ffea697e2c0d0d41b9f37e23054c334, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_room_Metallic.1001
+    second: {fileID: 2800000, guid: 4fd34c13c984dcb47b9a101e2f7fad31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_room_Normal.1001
+    second: {fileID: 2800000, guid: e0cfe3214837f60489a12a6060c26ed9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_room_Roughness.1001
+    second: {fileID: 2800000, guid: 7b74641f6479d184d861fe4cb5ba8422, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_sofa_BaseColor.1001
+    second: {fileID: 2800000, guid: 62b3b8fba019c1b4abfc139d54bde4f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_sofa_Metallic.1001
+    second: {fileID: 2800000, guid: 4caaa402756a8ae4486256cbae1ee3e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_sofa_Normal.1001
+    second: {fileID: 2800000, guid: a811b19fe545d0f45941b073f5da2e50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_sofa_Roughness.1001
+    second: {fileID: 2800000, guid: 5061352eb5197bb49b1f9e3b3254924f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_wall_BaseColor.1001
+    second: {fileID: 2800000, guid: 03784252866c49d479922a30b4da0507, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_wall_Metallic.1001
+    second: {fileID: 2800000, guid: 0a8ce6a9195d2f94a843fd6d18033ec0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_wall_Normal.1001
+    second: {fileID: 2800000, guid: ef31dda1ea355e64aa9462c5c56fa862, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_wall_Roughness.1001
+    second: {fileID: 2800000, guid: bcf7bc24eaf022b48a701968de35d1cc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

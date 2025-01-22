@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.047169805, g: 0.044677816, b: 0.044677816, a: 1}
+  m_AmbientSkyColor: {r: 0.009433985, g: 0.008757586, b: 0.008757586, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -362,6 +362,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 136024180024289097, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 136024180024289097, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_Intensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571309478876611594, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2734119524785429534, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
       propertyPath: isOpened
       value: 0
@@ -404,6 +416,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3488248479184218114, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399832290903010650, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388563080762197992, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418043510389673497, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8695793524630188427, guid: ca401df35901e374e9c09b3e10103f35, type: 3}

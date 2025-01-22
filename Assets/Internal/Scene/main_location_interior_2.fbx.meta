@@ -3,7 +3,337 @@ guid: 6b617391217be1246a7c6f59e049b3a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_07___Default_BaseColor
+    second: {fileID: 2800000, guid: 9c6325f18e848924fa44c0ec1a0b84b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_07___Default_Metallic
+    second: {fileID: 2800000, guid: 3f576402a1907494baebded7a2ada8c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_07___Default_Normal
+    second: {fileID: 2800000, guid: e4d8a38fcc56d9347ae91cca39c076e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_07___Default_Roughness
+    second: {fileID: 2800000, guid: e9460307187417543a8fbb4d600aa4a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_12___Default_BaseColor
+    second: {fileID: 2800000, guid: 47ce573cdc5195c499bd96c84020279d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_12___Default_Metallic
+    second: {fileID: 2800000, guid: 7117e5ae2af95b141a48dd9808abb130, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_12___Default_Normal
+    second: {fileID: 2800000, guid: ff339ee6003199344a46800c16d09208, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_12___Default_Roughness
+    second: {fileID: 2800000, guid: acb5d0f15529d574c8fbd26b5fa46f00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18_12___Default_BaseColor
+    second: {fileID: 2800000, guid: bb96161b7d6c01244b5a02e421aec2fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18_12___Default_Metallic
+    second: {fileID: 2800000, guid: 55bf308f16dddb34bbf714b38c2dffda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18_12___Default_Normal
+    second: {fileID: 2800000, guid: d901f5284680cb443b352118f0cc7b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18_12___Default_Roughness
+    second: {fileID: 2800000, guid: b1101c8527cbf894b8b9a20a2638690f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_01 - Defaultrehj_BaseColor
+    second: {fileID: 2800000, guid: 9a628e83eb5ecb647bbd6199946f4b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_01 - Defaultrehj_Metallic
+    second: {fileID: 2800000, guid: 48fecbe46735b224582a222d4728e4f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_01 - Defaultrehj_Normal
+    second: {fileID: 2800000, guid: da2f290d01a4f194d91e422d86c6a0e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 19_01 - Defaultrehj_Opacity
+    second: {fileID: 2800000, guid: 3b8d6819fb7b06c43ba74ce4635b376d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 706336_w
+    second: {fileID: 2800000, guid: e9a3fcdd94dd72044bae2ae0fda6c43e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Book0.003
+    second: {fileID: 2800000, guid: 4ca4ff664de0e7b4dbe0f60a1bbd5001, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Set 01_basecolor
+    second: {fileID: 2800000, guid: 26d8a7e7a5c09054c82c0b7532fbd2ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Set 01_metallic
+    second: {fileID: 2800000, guid: b6625cf53b48a954d94e9fa219233d4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Set 01_normal
+    second: {fileID: 2800000, guid: b3ca082eab9d1954ea329a5724a0aa80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Set 01_roughness
+    second: {fileID: 2800000, guid: 2a16892299a20fb42a8da390ea9cc2f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lower_Metal
+    second: {fileID: 2800000, guid: 9986fe9245d2e4445ac3d6642e847ddb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lower_Normal
+    second: {fileID: 2800000, guid: 940c57bb8db424c468775a5f2a95a097, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lower_Rough
+    second: {fileID: 2800000, guid: b259b18d6fbb4194f8fb7d337572e2c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Diffuse
+    second: {fileID: 2800000, guid: f304c616794ed304a90d5cb8dcb1c0b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Normal
+    second: {fileID: 2800000, guid: 7f9cdbb6ce4421e41945d812f2656706, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old Windows 04_Roughness
+    second: {fileID: 2800000, guid: afdf9c5616aa85e429e585046eb02795, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OperatorPanel_Metal
+    second: {fileID: 2800000, guid: fe23f724bbab8e0408c3ab64eb920c70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OperatorPanel_Normal
+    second: {fileID: 2800000, guid: f20fa839d848f244ab0e13eddd749aff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OperatorPanel_Rough
+    second: {fileID: 2800000, guid: 4b079fd8b4425f74d878f12098bfbfe7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen0_Metal
+    second: {fileID: 2800000, guid: edc1d5a4ad8c75a44a18444c5dfb438d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen0_Normal
+    second: {fileID: 2800000, guid: 6848464c3acb94147a9bfb65be63855c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen0_Rough
+    second: {fileID: 2800000, guid: acb3f3b9ea3faa04a85f3670c28d88a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen1_Metal
+    second: {fileID: 2800000, guid: 139c98d31cb5a164cb323a870ca04ebb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen1_Normal
+    second: {fileID: 2800000, guid: 78c39f2fd0eb5f04897b41f6a48bed90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen1_Rough
+    second: {fileID: 2800000, guid: 9a5af82d720ebe64ea13b6c0f0910803, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StickyNoteScribbles
+    second: {fileID: 2800000, guid: 072c6afdc5b1e4d42949461d61ebb733, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Upper_Metal
+    second: {fileID: 2800000, guid: 3aeb8dcb30ce065409856fd6b0388a12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Upper_Normal
+    second: {fileID: 2800000, guid: ce1a89003a969854cb9ac75145970bf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Upper_Rough
+    second: {fileID: 2800000, guid: 17be11af36cfa174ca949356de2ca228, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walnut_R
+    second: {fileID: 2800000, guid: c8c14c40c8ab83c42b058815620a6f87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wheels_Metal
+    second: {fileID: 2800000, guid: 9efe90dcd4d85f84c88f1699b4b06e40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wheels_Normal
+    second: {fileID: 2800000, guid: bd6b0066e0e47094d9d21669775b49c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wheels_Rough
+    second: {fileID: 2800000, guid: 9e1121e322e1d5a48a0755168353bb25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteMetal_diffuse
+    second: {fileID: 2800000, guid: b48f2aef6ef1ca04fad34fe28b89b4c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteMetal_normal
+    second: {fileID: 2800000, guid: 3cc83b702fb180a4a99e143fdf155b3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteMetal_roughness
+    second: {fileID: 2800000, guid: 7b1e9ebba051f7f47a0354cb0633de6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: can_rusted_diff_8k
+    second: {fileID: 2800000, guid: 687b5c0fb8deb474b8da4d3e8d3e9b3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: can_rusted_metal_8k
+    second: {fileID: 2800000, guid: b2779560a5cdba6459876aea7dd00bc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: can_rusted_nor_gl_8k
+    second: {fileID: 2800000, guid: 9605cdefb62d8bb45ba71aac2d6f54be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: can_rusted_rough_8k
+    second: {fileID: 2800000, guid: 119c9b9f88410a648b613d7dca86b99d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dark wood rough_Normal
+    second: {fileID: 2800000, guid: d8091177c9d520247926903c1052d1e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: g_21___Default_BaseColor
+    second: {fileID: 2800000, guid: e6539ed692ae5f64aa1c6b1551d3e0f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: g_21___Default_Metallic
+    second: {fileID: 2800000, guid: 563dd953b57a5494f9274c18ee68c3f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: g_21___Default_Normal
+    second: {fileID: 2800000, guid: 677b3a2e3e5002d4c93d900daec686d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: g_21___Default_Roughness
+    second: {fileID: 2800000, guid: 534128e7f525cca44a94ea577ec4b75b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guizi_24___Default_BaseColor.1002
+    second: {fileID: 2800000, guid: 66d8321da55cc604e8bcade464b2b771, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guizi_24___Default_Metallic.1002
+    second: {fileID: 2800000, guid: 0a812a38f5128c042ad886346cec34c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guizi_24___Default_Normal.1002
+    second: {fileID: 2800000, guid: 682168b94b83372419de2fb2ad46942a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guizi_24___Default_Roughness.1002
+    second: {fileID: 2800000, guid: c7efe197f112d7e4aaa75af9899e382f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: image
+    second: {fileID: 2800000, guid: a0c38afceb28cba46810899761be6aae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_cupboard_basecolor_diffuse
+    second: {fileID: 2800000, guid: 2ff99d7ffc1919d43b14e1cc55e0c756, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_cupboard_normal_opengl
+    second: {fileID: 2800000, guid: d8a2c2790539e0649b1d201faf3d4928, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_cupboard_roughness
+    second: {fileID: 2800000, guid: fda381aa5a3833740b512a5a0317cc86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: z0073-24-Unit-First-Aid-Kit-OSHA-Metal-Box
+    second: {fileID: 2800000, guid: 2346083967442724883b53e2b658aa13, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

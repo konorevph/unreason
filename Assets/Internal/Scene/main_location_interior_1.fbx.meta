@@ -3,7 +3,102 @@ guid: 8c3a45995ae123e41a490516adb46871
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3434
+    second: {fileID: 2800000, guid: 03157ce5ed355f54a9cfb071bc4a7e75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3435
+    second: {fileID: 2800000, guid: 010b60fedc9785a45954313dcbc21a7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mattress_Albedo
+    second: {fileID: 2800000, guid: de3bf0f581c776442abff7b72ed380a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mattress_Ro
+    second: {fileID: 2800000, guid: e894826451d24b4478c44f276cf9fde4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mattress_normal
+    second: {fileID: 2800000, guid: 6e2fae9a9d45f9941b43a4d6a8df3e82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2800000, guid: 01068ac885b7ef649a2cba34248d3814, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_albedo
+    second: {fileID: 2800000, guid: 034e2ba7ec01bc5488768552de44e53f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_metallic
+    second: {fileID: 2800000, guid: 7b1997897e1145f44ae9f224b388385b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_normal
+    second: {fileID: 2800000, guid: e7c4fcf53f5818d4c980d1f56d031eab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_roughness
+    second: {fileID: 2800000, guid: 1874fe125144fe148ab26d7907d57117, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bedsheet_Albedo
+    second: {fileID: 2800000, guid: 9488f95cf4b60c341a86692bb5dbfc30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bedsheet_Ro
+    second: {fileID: 2800000, guid: 25ed6598302c8c041ad0892d8c48605f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bedsheet_normal
+    second: {fileID: 2800000, guid: 157ec294efce83b4e93589085e71a557, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shirt-C
+    second: {fileID: 2800000, guid: 0489c6f33e8739f42a9475376d168f1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shirt-N
+    second: {fileID: 2800000, guid: f23447705c980a5489228c028c4ad4fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheelchair_01_diff_4k
+    second: {fileID: 2800000, guid: b94631234fda9e84f82033befa7cdb3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheelchair_01_metal_4k
+    second: {fileID: 2800000, guid: d71e24aaf59ef3547bd23e5d7a6f0d4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheelchair_01_nor_gl_4k
+    second: {fileID: 2800000, guid: 8cacc9085bd9c9c4db99360e9170674b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wheelchair_01_rough_4k
+    second: {fileID: 2800000, guid: 47324e7ff17a1a844ab219eb32614337, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,112 @@ guid: a2162f3a5f35c7a4c96a75dfab002250
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ElectricalBox1
+    second: {fileID: 2800000, guid: 3db0eafffaac5d34296fa9d462703e29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_0
+    second: {fileID: 2800000, guid: f96cba48bead06f4e890950936fd538e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_3
+    second: {fileID: 2800000, guid: bab1d8ca100d8af4890cc7e288114436, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material.001_Metallic
+    second: {fileID: 2800000, guid: fb2aad71cef2f6d46a690ea5e77d7c75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material.001_Normal
+    second: {fileID: 2800000, guid: f83a03c9a90faaf46bf6ca6b30ba1099, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material.001_Roughness
+    second: {fileID: 2800000, guid: b27f12c1f14f02341bd5feb40362bfaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_albedo
+    second: {fileID: 2800000, guid: 70fd97661b96b31408909e448107bd1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_metallic
+    second: {fileID: 2800000, guid: 2d434682b4790684db76da6790fd53de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_normal
+    second: {fileID: 2800000, guid: 716b186dc2aa4cc4ca6559614ddaf13b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_roughness
+    second: {fileID: 2800000, guid: feb4fa53875b7d847b09362426b32111, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bucket_albedo
+    second: {fileID: 2800000, guid: fa964be1eee90a54faaeed180373047a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bucket_normal
+    second: {fileID: 2800000, guid: 1700fc3536796e24bb037fe0aa6d6113, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bucket_roughness
+    second: {fileID: 2800000, guid: e4b320f0d5131554698a110269537e0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crowbar_01_diff_8k
+    second: {fileID: 2800000, guid: 085ad3a604644864ba72f1957b1dc70a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crowbar_01_metal_8k
+    second: {fileID: 2800000, guid: 33b9748e46ad0cc48bc51c579ba5c6f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crowbar_01_nor_gl_8k
+    second: {fileID: 2800000, guid: 0ad6e91014e34d1478dd00375a9c49a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crowbar_01_rough_8k
+    second: {fileID: 2800000, guid: 55dd8f6a62268f64595db106a80630b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_bottle_gallon_diff_8k
+    second: {fileID: 2800000, guid: b69f6332f7c90ce42834229c088069e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_bottle_gallon_nor_gl_8k
+    second: {fileID: 2800000, guid: db6ffee1266319a488e60b5a8e854081, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_bottle_gallon_rough_8k
+    second: {fileID: 2800000, guid: f02dfd3f0b6e7964e9dd236de85a9057, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sheet2_Normal
+    second: {fileID: 2800000, guid: c73a4da80ff43b5429186bfb9fac987a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
