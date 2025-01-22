@@ -50,6 +50,7 @@ MonoBehaviour:
   isOpened: 1
   locker: {fileID: 0}
   closeSpeed: 100
+  openSpeed: 30
   ClosingAudioSource: {fileID: 8584884922280386687}
   OpeningAudioSource: {fileID: 6775208821802629137}
 --- !u!82 &8584884922280386687

@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 4138500316969329532}
   - component: {fileID: 3319879723401647594}
   - component: {fileID: 8260409343808654496}
+  - component: {fileID: 4439252830539099724}
   m_Layer: 0
   m_Name: note
   m_TagString: Untagged
@@ -602,6 +603,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &4439252830539099724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7312127053723660867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b5ebe6f61d934eb83c867806d8924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: 3ed2ba82ad462534aacea461e52d3457, type: 2}
+  meshRenderer: {fileID: 6055288364275769895}
 --- !u!1 &7668182878914141505
 GameObject:
   m_ObjectHideFlags: 0
