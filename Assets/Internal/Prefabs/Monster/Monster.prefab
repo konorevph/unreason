@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6335362432775891162}
   - component: {fileID: 4943234207039339769}
   - component: {fileID: 8222688040741734479}
-  - component: {fileID: 4469511225639471815}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -70,32 +69,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  jumpDistance: 4
-  followDistance: 10
+  jumpDistance: 3
+  followDistance: 6
   killDistance: 1
   maxSpeed: 5
   minSpeed: 1
---- !u!65 &4469511225639471815
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4181688066443931213}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6.8700004, y: 6.0683384, z: 11.146932}
-  m_Center: {x: 0, y: 2.894599, z: -3.944868}
+  ignorePlayer: 0
 --- !u!1001 &8700935341205775563
 PrefabInstance:
   m_ObjectHideFlags: 0

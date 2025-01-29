@@ -10,7 +10,6 @@ public class Starting : MonoBehaviour
 
     public GameObject doorToOpenObject;
     public GameObject flashlightObject;
-    public Monster monster;
     
     private Door doorToClose;
     private Door doorToOpen;
@@ -30,10 +29,6 @@ public class Starting : MonoBehaviour
         flashlight = flashlightObject.GetComponent<LightSource>();
         
         doorToClose.PartiallyOpen(20f);
-        if (monster)
-        {
-            monster.MoveToPoint(this.transform);
-        }
     }
 
     private void OnTriggerEnter(Collider other)

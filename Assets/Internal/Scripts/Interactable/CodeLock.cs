@@ -66,8 +66,8 @@ public class CodeLock : MonoBehaviour, ILock
             code += i;
         }
 
-        Debug.Log("Code: " + code
-            + "\ncodelock is " 
-            + (isOpened ? "opened" : "closed"));
+        // Debug.Log("Code: " + code
+        //     + "\ncodelock is " 
+        //     + (isOpened ? "opened" : "closed"));
     }
 }

@@ -6,20 +6,36 @@ using UnityEngine.Serialization;
 
 public class Monster : MonoBehaviour
 {
+    private static Monster instance; 
     private static readonly int IsRun = Animator.StringToHash("isRun");
     private static readonly int IsJump = Animator.StringToHash("isJump");
+    
     public Transform Player;
     public float jumpDistance = 5f;
     public float followDistance = 10f;
     public float killDistance = 1f;
     public float maxSpeed = 5f;
     public float minSpeed = 0.5f;
+    public bool ignorePlayer = false;
 
     private Animator _animator;
     private NavMeshAgent _agent;
     private Transform _pointToMove;
     private float _moveSpeed;
-    
+
+    public static Monster getInstance()
+    {
+        return instance;
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
     void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
@@ -40,19 +56,22 @@ public class Monster : MonoBehaviour
         bool isRun = false;
         bool isJump = false;
         _agent.isStopped = false;
-        float plyerDist =  Vector3.Distance(transform.position, Player.position);
-        if (Player && plyerDist < killDistance)
+        float plyerDist = 1000f;
+        if (Player) 
+            plyerDist = Vector3.Distance(transform.position, Player.position);
+        
+        if (!ignorePlayer && plyerDist < killDistance)
         {
             _agent.isStopped = true;
             SceneManager.LoadScene("YouDie");
         }
-        else if (Player && plyerDist <= jumpDistance)
+        else if (!ignorePlayer && plyerDist <= jumpDistance)
         {
             _agent.speed = maxSpeed;
             _agent.SetDestination(Player.position);
             isJump = true;
         }
-        else if (Player && plyerDist <= followDistance)
+        else if (!ignorePlayer && plyerDist <= followDistance)
         {
             _agent.speed = minSpeed;
             _agent.SetDestination(Player.position);

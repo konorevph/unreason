@@ -47,7 +47,7 @@ public class Door : MonoBehaviour
         }
         
         UpdateState();
-        Debug.Log("Door " + this.name + " is " + (isOpened ? "opened" : "closed"));
+        // Debug.Log("Door " + this.name + " is " + (isOpened ? "opened" : "closed"));
     }
 
     void Update()
