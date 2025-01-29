@@ -44,15 +44,6 @@ public class Monster : MonoBehaviour
 
     void Update()
     {
-        if (_agent.hasPath && !_agent.isStopped)
-        {
-            _animator.SetBool(IsRun, true);
-        }
-        else
-        {
-            _animator.SetBool(IsRun, false);
-        }
-
         bool isRun = false;
         bool isJump = false;
         _agent.isStopped = false;

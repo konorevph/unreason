@@ -68,7 +68,7 @@ public class MonsterManager : MonoBehaviour
 
             _monster.MoveToPoint(targetPoint, speed);
 
-            while (Vector3.Distance(_monster.transform.position, targetPoint.position) > 0.1f)
+            while (Vector3.Distance(_monster.transform.position, targetPoint.position) > 1f)
             {
                 yield return null;
             }
