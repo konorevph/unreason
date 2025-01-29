@@ -12,4 +12,14 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void MenuScene()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    
+    public void FinalScene()
+    {
+        SceneManager.LoadScene("Final");
+    }
 }

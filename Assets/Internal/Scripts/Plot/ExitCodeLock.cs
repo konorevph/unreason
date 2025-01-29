@@ -18,7 +18,7 @@ public class ExitCodeLock : MonoBehaviour
     {
         if (Lock.IsOpened())
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Final");
         }
     }
 }
