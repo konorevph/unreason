@@ -70,11 +70,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  jumpDistance: 3
-  followDistance: 6
+  jumpDistance: 2
+  followDistance: 5
   killDistance: 1
-  maxSpeed: 5
-  minSpeed: 1
+  maxSpeed: 2
+  minSpeed: 0.8
   ignorePlayer: 0
 --- !u!82 &8834172996690908418
 AudioSource:

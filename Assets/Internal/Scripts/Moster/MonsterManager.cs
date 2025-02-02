@@ -21,16 +21,22 @@ public class MonsterManager : MonoBehaviour
 
     public void Activate()
     {
-        _monster.gameObject.SetActive(true);
-        StopCoroutine(_currentCoroutine);
-        _isMovingBetweenPoints = false;
+        _monster.isActive = true;
+        if (_currentCoroutine != null)
+        {
+            StopCoroutine(_currentCoroutine);
+            _isMovingBetweenPoints = false;
+        }
     }
     
     public void Disactivate()
     {
-        _monster.gameObject.SetActive(false);
-        StopCoroutine(_currentCoroutine);
-        _isMovingBetweenPoints = false;
+        _monster.isActive = false;
+        if (_currentCoroutine != null)
+        {
+            StopCoroutine(_currentCoroutine);
+            _isMovingBetweenPoints = false;
+        }
     }
 
     public void MoveBetweenPoints()

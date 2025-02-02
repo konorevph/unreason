@@ -23,6 +23,17 @@ public class Checkpoint : MonoBehaviour
 		{
 			checkpoint.gameObject.SetActive(true);
 		}
+		AfterTrigger();
+	}
+
+	protected virtual void AfterTrigger()
+	{
 		this.enabled = false;
+	}
+
+	// ReSharper disable Unity.PerformanceAnalysis
+	public void Check()
+	{
+		Trigger();
 	}
 }

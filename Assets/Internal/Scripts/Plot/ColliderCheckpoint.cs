@@ -9,7 +9,12 @@ public class ColliderCheckpoint : Checkpoint
         if (other.CompareTag("Player"))
         {
             Trigger();
-            this.gameObject.SetActive(false);
         }
+    }
+    
+    protected override void AfterTrigger()
+    {
+        this.enabled = false;
+        this.gameObject.SetActive(false);
     }
 }

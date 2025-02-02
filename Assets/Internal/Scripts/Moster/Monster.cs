@@ -17,7 +17,10 @@ public class Monster : MonoBehaviour
     public float maxSpeed = 5f;
     public float minSpeed = 0.5f;
     public bool ignorePlayer = false;
+    public LayerMask obstacleMask;
+    public bool isActive = true;
 
+    private int _layerMask;
     private Animator _animator;
     private NavMeshAgent _agent;
     private Transform _pointToMove;
@@ -40,16 +43,30 @@ public class Monster : MonoBehaviour
     {
         _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponentInChildren<Animator>();
+        _layerMask = obstacleMask;
+        if (Player)
+            _layerMask |= 1 << Player.gameObject.layer;
     }
 
     void Update()
     {
+        if (!isActive) return;
+        
         bool isRun = false;
         bool isJump = false;
         _agent.isStopped = false;
         float plyerDist = 1000f;
         if (Player) 
-            plyerDist = Vector3.Distance(transform.position, Player.position);
+        {
+            Vector3 directionToPlayer = ((Player.position + Vector3.up * 0.5f) - transform.position ).normalized;
+            if (Physics.Raycast(transform.position, directionToPlayer, out RaycastHit hit, followDistance, _layerMask))
+            {
+                if (hit.transform == Player)
+                {
+                    plyerDist = Vector3.Distance(transform.position, Player.position);
+                }
+            }
+        }
         
         if (!ignorePlayer && plyerDist < killDistance)
         {

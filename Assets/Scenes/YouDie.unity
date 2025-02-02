@@ -360,7 +360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &524204176
 Light:
   m_ObjectHideFlags: 0
@@ -557,6 +557,7 @@ PrefabInstance:
     - {fileID: 4399832290903010650, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
     - {fileID: 5418043510389673497, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
     - {fileID: 8515996645588531786, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
+    - {fileID: 9005359387831819692, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca401df35901e374e9c09b3e10103f35, type: 3}
